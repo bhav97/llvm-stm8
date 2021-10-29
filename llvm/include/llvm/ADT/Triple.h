@@ -91,6 +91,7 @@ public:
     amdil64,        // AMDIL with 64-bit pointers
     hsail,          // AMD HSAIL
     hsail64,        // AMD HSAIL with 64-bit pointers
+    stm8,           // STMicro STM8
     spir,           // SPIR: standard portable IR for OpenCL 32-bit version
     spir64,         // SPIR: standard portable IR for OpenCL 64-bit version
     kalimba,        // Kalimba: generic kalimba

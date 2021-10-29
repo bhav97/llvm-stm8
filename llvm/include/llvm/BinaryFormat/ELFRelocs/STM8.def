@@ -1,0 +1,7 @@
+
+#ifndef ELF_RELOC
+#error "ELF_RELOC must be defined"
+#endif
+
+// Need a spec
+ELF_RELOC(R_STM8_NONE, 	0x00);

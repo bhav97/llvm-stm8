@@ -378,6 +378,11 @@ enum {
 
 #define ELF_RELOC(name, value) name = value,
 
+// STMicro STM8 relocations.
+enum {
+#include "ELFRelocs/STM8.def"
+}
+
 // X86_64 relocations.
 enum {
 #include "ELFRelocs/x86_64.def"
